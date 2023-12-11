@@ -1,14 +1,14 @@
 ## AssessAlignment
 
 This repository contains the implementation for the paper: ["Assessing the Alignment Between Geometry and
-Colors in TLS Colored Point Clouds"]() published in the ISPRS Annals, 2023. The paper is authored by [Zhaoyi Wang](https://gseg.igp.ethz.ch/people/scientific-assistance/zhaoyi-wang.html), 
+Colors in TLS Colored Point Clouds"](https://isprs-annals.copernicus.org/articles/X-1-W1-2023/597/2023/) published in the ISPRS Annals, 2023. The paper is authored by [Zhaoyi Wang](https://gseg.igp.ethz.ch/people/scientific-assistance/zhaoyi-wang.html), 
 [Matej Varga](https://gseg.igp.ethz.ch/people/scientific-assistance/matej-varga.html), 
 [Tomislav Medic](https://gseg.igp.ethz.ch/people/scientific-assistance/tomislav-medic.html) and 
 [Andreas Wieser](https://gseg.igp.ethz.ch/people/group-head/prof-dr--andreas-wieser.html).
 
 ### Introduction
 
-The integration of the color information f~~ro~~m RGB cameras with the point cloud geometry is used in numerous applications.
+The integration of the color information from RGB cameras with the point cloud geometry is used in numerous applications.
 However, little attention has been paid on errors that occur when aligning colors to points in terrestrial laser scanning (TLS) point
 clouds. Such errors may impact the performance of algorithms that utilize colored point clouds. Herein, we propose a procedure
 for assessing the alignment between the TLS point cloud geometry and colors. The procedure is based upon identifying artificial
@@ -115,10 +115,11 @@ If you find this repository is useful for your work, please consider citing the 
 ```
 @article{
   title={Assessing the Alignment Between Geometry and Colors in TLS Colored Point Clouds},
-  author={Zhaoyi Wang, Matej Varga, Tomislav Medic, Andreas Wieser},
-  journal={International Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
-  volume={},
-  pages={},
-  year={2023}
+  author={Wang, Z., Varga, M., Medić, T., and Wieser, A.},
+  journal={ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.},
+  volume={X-1/W1-2023},
+  pages={597–604},
+  year={2023},
+  note={\url{https://isprs-annals.copernicus.org/articles/X-1-W1-2023/597/2023/}}
 }
 ```
